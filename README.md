@@ -1,6 +1,6 @@
 # CSUF-Algorithms---Electric-Car-Project
-It's a small world
-Summary: The It's a Small World algorithm is based on the popular 2019 game "Six Degrees of Kevin Bacon." The goal of this algorithm is to find the shortest path between two casts from different movies. And the casts of various films will be saved in a list in string format.
-We will be given a positive integer greater than 2, and the first two movie casts will be very significant because we will find the shortest connection between these, and if we find at least one, we can say we have one shortest connection. If there is no connection between the first two movie casts, we will look for another cast from the list of casts. If we discover a link between them, the shortest distance will be two. Otherwise, we return the shortest connection that is greater than two or no connection.
+Electric Car Traveler
 
-As a result, this algorithm will assist us in determining the relationship between movie casts.
+Summary: Electric Car Traveler algorithm states the problem that while traveling through the cities, we need to stop to charge our electric car if its charging is not enough to travel the next city. Also, we will have to refill at the previous station if the current station is not working. We have solved the algorithm in python language. The algorithm gives output in a list ‘result’ for the cities we had to stop to charge the electric car. This will help us when we plan long travel routes and help us identify the cities to stop to charge our electric car.
+
+Description of the project: We used python for solving the problem statement. User inputs(ie. for total number of miles, number of cities and their distances) are taken by following the given constraints. The city names and the distance between them are stored in a dictionary. And, the output is stored in an list 'result'. Our algorithm traverses from the first city to the last city, where the last city will have zero distance. For example: {'A': 10, 'B': 5, 'C': 0} ie. Distance from A to B is 10, Distance from B to C is 5. We check if we have enough charging to traverse to the previous city if current station is not working.
