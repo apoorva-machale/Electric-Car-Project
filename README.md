@@ -1,4 +1,4 @@
-# CSUF-Algorithms---Electric-Car-Project
+# Electric-Car-Project
 Electric Car Traveler
 
 Summary: Electric Car Traveler algorithm states the problem that while traveling through the cities, we need to stop to charge our electric car if its charging is not enough to travel the next city. Also, we will have to refill at the previous station if the current station is not working. We have solved the algorithm in python language. The algorithm gives output in a list ‘result’ for the cities we had to stop to charge the electric car. This will help us when we plan long travel routes and help us identify the cities to stop to charge our electric car.
